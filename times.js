@@ -16,4 +16,3 @@ if(number_of_months)
 if(number_of_days)
     timeHTML+=number_of_days+"天。";
 document.getElementById('times').innerHTML = timeHTML;
-alert(timeHTML);
