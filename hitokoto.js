@@ -4,7 +4,7 @@ fetch('https://v1.hitokoto.cn')
     })
     .then(function (data) {
         var hitokoto = document.getElementById('yy520');
-        hitokoto.innerText = "「 " + tify(data.hitokoto) + " 」";
+        hitokoto.innerText = "「 " + data.hitokoto + " 」";
     })
     .catch(function (err) {
         console.error(err);
