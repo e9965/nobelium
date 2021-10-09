@@ -1,4 +1,3 @@
-import {tify, sify} from 'chinese-conv';
 fetch('https://v1.hitokoto.cn')
     .then(function (res){
         return res.json();
