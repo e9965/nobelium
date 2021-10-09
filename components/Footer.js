@@ -5,7 +5,6 @@ const Footer = ({ fullWidth }) => {
   const y = d.getFullYear()
   const from = +BLOG.since
   return (
-    <script src="https://blog.co2fe.cf/usr/waifu/auto_waifu.js"></script>
     <div
       className={`mt-6 flex-shrink-0 m-auto w-full text-gray-500 dark:text-gray-400 transition-all ${
         !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
