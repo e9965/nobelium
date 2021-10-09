@@ -17,7 +17,6 @@ const Footer = ({ fullWidth }) => {
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
             <br></br><br></br>
             <div id="times">0</div>
-            <br></br>
             <div id="yy520">0</div>
           </p>
           <script type="text/javascript" src="https://blog.co2fe.cf/usr/Static/times.js" ></script>
