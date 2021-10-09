@@ -1,4 +1,5 @@
 var s1 = '2022-04-23';
+var cnvtime = document.getElementById('times')
 s1 = new Date(s1.replace(/-/g, "/"));
 s2 = new Date();
 var days = s1.getTime() - s2.getTime();
@@ -15,4 +16,4 @@ if(number_of_months)
     timeHTML+=number_of_months+"月";
 if(number_of_days)
     timeHTML+=number_of_days+"天。";
-document.getElementById('times').innerText = timeHTML;
+cnv.innerText = timeHTML;
