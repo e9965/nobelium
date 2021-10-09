@@ -42,7 +42,7 @@ const Layout = ({
                   alt={BLOG.author}
                   width={24}
                   height={24}
-                  src={`https://raw.githubusercontent.com/e9965/nobelium/main/public/63435466.jpg`}
+                  src="https://raw.githubusercontent.com/e9965/nobelium/main/public/63435466.jpg"
                   className="rounded-full"
                 />
                 <p className="ml-2 md:block">{BLOG.author}</p>
