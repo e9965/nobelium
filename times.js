@@ -1,4 +1,4 @@
-var s1 = "2022-04-23";//设置为你的建站时间
+var s1 = '2022-04-23';//设置为你的建站时间
 s1 = new Date(s1.replace(/-/g, "/"));
 s2 = new Date();
 var days = s1.getTime() - s2.getTime();
@@ -16,3 +16,4 @@ if(number_of_months)
 if(number_of_days)
     timeHTML+=number_of_days+"天。";
 document.getElementById('times').innerHTML = timeHTML;
+
