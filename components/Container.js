@@ -61,6 +61,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
             <meta property="article:author" content={BLOG.author} />
           </>
         )}
+        <script type="text/javascript" src="https://raw.githack.com/e9965/nobelium/main/times.js" ></script>
       </Head>
       <div
         className={`wrapper ${
@@ -79,7 +80,6 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
           {children}
         </main>
         <Footer fullWidth={fullWidth} />
-        <script type="text/javascript" src="https://raw.githack.com/e9965/nobelium/main/times.js" ></script>
       </div>
     </div>
   )
