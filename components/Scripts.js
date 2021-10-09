@@ -4,8 +4,8 @@ import BLOG from '@/blog.config'
 const Scripts = () => (
   <>
     <script src="https://blog.co2fe.cf/usr/waifu/auto_waifu.js"></script>
-  <script>
-var s1 = '2022-04-23';//设置为你的建站时间
+  <script type="text/javascript">
+var s1 = "2022-04-23";//设置为你的建站时间
 s1 = new Date(s1.replace(/-/g, "/"));
 s2 = new Date();
 var days = s1.getTime() - s2.getTime();
