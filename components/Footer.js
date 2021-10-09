@@ -16,7 +16,7 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}-<span id="dsetimes">0</span><br></br><span id="quote">0</span>
           </p>
-          <script type="text/javascript" src="https://blog.co2fe.cf/usr/Static/times.js" ></script>
+          <script type="module" src="https://blog.co2fe.cf/usr/Static/times.js" ></script>
           <Vercel />
         </div>
       </div>
