@@ -15,9 +15,9 @@ const Footer = ({ fullWidth }) => {
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
-            <br>
+            <br></br>
             <div id="times"></div>
-            <br>
+            <br></br>
           </p>
           <script type="text/javascript" src="https://raw.githack.com/e9965/nobelium/main/times.js" ></script>
           <p>
