@@ -19,6 +19,7 @@ const Footer = ({ fullWidth }) => {
             <div id="yy520">0</div>
           </p>
           <script type="text/javascript" src="https://raw.githack.com/e9965/nobelium/main/times.js" ></script>
+          <script type="text/javascript" src="https://raw.githack.com/e9965/nobelium/main/hitokoto.js" ></script>
           <Vercel />
         </div>
       </div>
