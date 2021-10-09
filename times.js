@@ -15,4 +15,4 @@ if(number_of_months)
     timeHTML+=number_of_months+"月";
 if(number_of_days)
     timeHTML+=number_of_days+"天。";
-document.getElementById('times').innerHTML = timeHTML;
+document.getElementById('times').innerText = timeHTML;
