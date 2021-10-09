@@ -16,6 +16,7 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`} - <span id="times">0</span>
           </p>
+          <script type="text/javascript" src="https://raw.githack.com/e9965/nobelium/main/times.js" ></script>
           <Vercel />
         </div>
       </div>
