@@ -5,19 +5,19 @@ const BLOG = {
   link: 'https://co2fe.cf',
   description: 'Fighting for 2022 DSE. You can find lots of resources on this website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'auto', // ['light', 'dark', 'auto'],
+  appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // If leave this empty, current year will be used.
-  postsPerPage: 7,
-  sortByDate: false,
+  postsPerPage: 20,
+  sortByDate: true,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://github.com/e9965',
   seo: {
     keywords: ['Pure_Co2Fe', 'DSE', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
