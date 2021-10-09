@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "axios": ">=0.21.3",
-    "chinese-conv": ">=1.0.1"
+    "chinese-conv": ">=1.0.1",
     "feed": "^4.2.2",
     "gitalk": "^1.7.2",
     "next": "^11.1.2",
