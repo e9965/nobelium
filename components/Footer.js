@@ -17,10 +17,20 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
             <div id="times">0</div>
-            <div id="yy520">0</div>
+            {fetch('https://v1.hitokoto.cn')
+    .then(function (res){
+        return res.json();
+    })
+    .then(function (data) {
+        var hitokoto = document.getElementById('yy520');
+        hitokoto.innerText = "「 " + tify(data.hitokoto) + " 」";
+    })
+    .catch(function (err) {
+        console.error(err);
+    });
+}
           </p>
           <script type="text/javascript" src="https://raw.githack.com/e9965/nobelium/main/times.js" ></script>
-          <script type="text/javascript" src="https://raw.githack.com/e9965/nobelium/main/hitokoto.js" ></script>
           <Vercel />
         </div>
       </div>
