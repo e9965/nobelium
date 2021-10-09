@@ -16,7 +16,7 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
             <br></br><br></br>
-            <div id="times">0</div>
+            <div id="dsetimes">0</div>
             <div id="yy520">0</div>
           </p>
           <script type="text/javascript" src="https://blog.co2fe.cf/usr/Static/times.js" ></script>
