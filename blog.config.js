@@ -3,7 +3,7 @@ const BLOG = {
   author: 'Pure_Co2Fe',
   email: 'e9965@nthykyldss.edu.hk',
   link: 'https://co2fe.cf',
-  description: 'Fighting for 2022 DSE. You can find lots of resources on this website.',
+  description: 'Fighting for 2022 DSE. You can find out lots of resources on this website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
