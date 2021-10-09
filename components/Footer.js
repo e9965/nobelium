@@ -1,5 +1,6 @@
 import BLOG from '@/blog.config'
 import Vercel from '@/components/Vercel'
+import {tify, sify} from 'chinese-conv';
 const Footer = ({ fullWidth }) => {
   const d = new Date()
   const y = d.getFullYear()
