@@ -61,6 +61,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
             <meta property="article:author" content={BLOG.author} />
           </>
         )}
+        <>
       <script type="text/javascript">
 var s1 = "2022-04-23";
 s1 = new Date(s1.replace(/-/g, "/"));
@@ -81,6 +82,7 @@ if(number_of_days)
     timeHTML+=number_of_days+"天。";
 document.getElementById('times').innerHTML = timeHTML;
       </script>
+      </>
       </Head>
       <div
         className={`wrapper ${
