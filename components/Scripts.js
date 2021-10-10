@@ -3,7 +3,6 @@ import BLOG from '@/blog.config'
 
 const Scripts = () => (
   <>
-    <script src="https://blog.co2fe.cf/usr/waifu/auto_waifu.js"></script>
     {BLOG.analytics && BLOG.analytics.provider === 'ackee' && (
       <Script
         src={BLOG.analytics.ackeeConfig.tracker}
