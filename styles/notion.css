@@ -66,6 +66,7 @@ pre[class*='language-'] {
 }
 .notion-quote {
   padding: 0.2em 0.9em;
+  font-size: 1em;
 }
 .notion-collection-row {
   @apply hidden;
