@@ -61,7 +61,6 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
             <meta property="article:author" content={BLOG.author} />
           </>
         )}
-      <script type="text/javascript" src="https://blog.co2fe.cf/usr/Static/times.js" ></script>
       </Head>
       <div
         className={`wrapper ${
@@ -79,6 +78,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         >
           {children}
         </main>
+        <script type="text/javascript" src="https://blog.co2fe.cf/usr/Static/times.js" ></script>
         <Footer fullWidth={fullWidth} />
       </div>
     </div>
