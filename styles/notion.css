@@ -6,6 +6,7 @@
 }
 .notion,
 .notion-text,
+.notion-quote,
 .notion-h-title {
   @apply leading-8;
   @apply p-0;
