@@ -78,7 +78,6 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         >
           {children}
         </main>
-        <script type="text/javascript" src="https://blog.co2fe.cf/usr/Static/times.js" ></script>
         <Footer fullWidth={fullWidth} />
       </div>
     </div>
