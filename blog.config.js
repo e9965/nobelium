@@ -5,7 +5,7 @@ const BLOG = {
   link: 'https://co2fe.cf',
   description: 'Fighting for 2022 DSE. You can find out lots of resources on this website.',
   lang: 'zh-HK', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'light', // ['light', 'dark', 'auto'],
+  appearance: 'dark', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
