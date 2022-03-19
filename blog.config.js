@@ -1,17 +1,17 @@
 const BLOG = {
   title: 'Study Blog For Pure Co2Fe',
   author: 'Pure_Co2Fe',
-  email: 'e9965@nthykyldss.edu.hk',
+  email: '',
   link: 'https://co2fe.cf',
-  description: 'Fighting for 2022 DSE. You can find out lots of resources on this website.',
+  description: 'Fighting for 2022 DSE',
   lang: 'zh-HK', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'auto', // ['light', 'dark', 'auto'],
-  font: 'sans-serif', // ['sans-serif', 'serif']
+  appearance: 'light', // ['light', 'dark', 'auto'],
+  font: 'serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // If leave this empty, current year will be used.
-  postsPerPage: 10,
+  postsPerPage: 15,
   sortByDate: true,
   showAbout: true,
   showArchive: true,
