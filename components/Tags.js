@@ -4,7 +4,7 @@ const Tags = ({ tags, currentTag }) => {
   if (!tags) return null
   return (
     <div className="tag-container">
-      <ul className="flex max-w-full mt-4 overflow-x-auto">
+      <ul className="max-w-full mt-4 overflow-x-auto">
         {Object.keys(tags).map(key => {
           const selected = key === currentTag
           return (
