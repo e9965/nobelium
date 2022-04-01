@@ -1,7 +1,5 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import Script from 'next/script'
-import Link from 'next/link'
 import BLOG from '@/blog.config'
 import Head from 'next/head'
 import PropTypes from 'prop-types'
@@ -21,10 +19,9 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         {/* <meta content={BLOG.darkBackground} name="theme-color" /> */}
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB"></link>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
-            onload="renderMathInElement(document.body);"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js" integrity="sha384-UEY9IRPkV+TTTY7nK1wSrfhWPDJy9wr4PmYg3DLPcN5F4NDlIwGZkWtWveKR/45c"  crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js" integrity="sha384-UEY9IRPkV+TTTY7nK1wSrfhWPDJy9wr4PmYg3DLPcN5F4NDlIwGZkWtWveKR/45c"></script>
         <meta name="robots" content="follow, index" />
         <meta charSet="UTF-8" />
         {BLOG.seo.googleSiteVerification && (
