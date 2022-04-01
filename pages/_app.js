@@ -1,6 +1,7 @@
 import 'prismjs/themes/prism.css'
 import 'react-notion-x/src/styles.css'
 import 'katex/dist/katex.min.css'
+import TeX from '@matejmazur/react-katex';
 import '@/styles/globals.css'
 import '@/styles/notion.css'
 import BLOG from '@/blog.config'
