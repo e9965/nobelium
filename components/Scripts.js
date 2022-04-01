@@ -5,9 +5,7 @@ import BLOG from '@/blog.config'
 const Scripts = () => (
   <>
     <Link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" >
-    <!-- The loading of KaTeX is deferred to speed up page rendering -->
     <Script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p"></Script>
-    <!-- To automatically render math in text elements, include the auto-render extension: -->
     <Script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
         onload="renderMathInElement(document.body);"></Script>
      <Script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js" integrity="sha384-UEY9IRPkV+TTTY7nK1wSrfhWPDJy9wr4PmYg3DLPcN5F4NDlIwGZkWtWveKR/45c"></Script>
