@@ -3,8 +3,7 @@ import BLOG from '@/blog.config'
 
 const Scripts = () => (
   <>
-  
-   {BLOG.analytics && BLOG.analytics.provider === 'ackee' && (
+  {BLOG.analytics && BLOG.analytics.provider === 'ackee' && (
       <Script
         src={BLOG.analytics.ackeeConfig.tracker}
         data-ackee-server={BLOG.analytics.ackeeConfig.dataAckeeServer}
