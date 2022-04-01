@@ -4,10 +4,7 @@ import BLOG from '@/blog.config'
 const Scripts = () => (
   <>
   
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js" integrity="sha384-UEY9IRPkV+TTTY7nK1wSrfhWPDJy9wr4PmYg3DLPcN5F4NDlIwGZkWtWveKR/45c"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" onload="renderMathInElement(document.body);"></script>
-    {BLOG.analytics && BLOG.analytics.provider === 'ackee' && (
+   {BLOG.analytics && BLOG.analytics.provider === 'ackee' && (
       <Script
         src={BLOG.analytics.ackeeConfig.tracker}
         data-ackee-server={BLOG.analytics.ackeeConfig.dataAckeeServer}
