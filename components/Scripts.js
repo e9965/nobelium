@@ -3,6 +3,7 @@ import BLOG from '@/blog.config'
 
 const Scripts = () => (
   <>
+     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js" integrity="sha384-UEY9IRPkV+TTTY7nK1wSrfhWPDJy9wr4PmYg3DLPcN5F4NDlIwGZkWtWveKR/45c"></script>
     {BLOG.analytics && BLOG.analytics.provider === 'ackee' && (
       <Script
         src={BLOG.analytics.ackeeConfig.tracker}
@@ -40,7 +41,6 @@ const Scripts = () => (
               page_path: window.location.pathname,
             });`}
         </Script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js" integrity="sha384-UEY9IRPkV+TTTY7nK1wSrfhWPDJy9wr4PmYg3DLPcN5F4NDlIwGZkWtWveKR/45c"></script>
       </>
     )}
   </>
